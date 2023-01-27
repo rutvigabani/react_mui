@@ -11,16 +11,16 @@ export const MuiSelect = () => {
   return (
     <Box width="250px">
       <TextField
-        label="select country"
+        // label="select country"
         value={countries}
         fullWidth
         SelectProps={{ multiple: true }}
         onChange={handleChange}
         select
         size="small"
-        color="secondary"
-        helperText='please select your country'
-        error
+        // color="secondary"
+        helperText="please select your country"
+        // error
       >
         <MenuItem value="IN">India</MenuItem>
         <MenuItem value="AU">Australia</MenuItem>
